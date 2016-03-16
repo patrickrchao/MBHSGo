@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		FB3A44371C99E20B001F9431 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3A44361C99E20B001F9431 /* Event.swift */; settings = {ASSET_TAGS = (); }; };
+		FB3A443B1C99E858001F9431 /* blair.JPG in Resources */ = {isa = PBXBuildFile; fileRef = FB3A443A1C99E858001F9431 /* blair.JPG */; settings = {ASSET_TAGS = (); }; };
 		FBC5F69A1C9833C100B09ADB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC5F6991C9833C100B09ADB /* AppDelegate.swift */; };
 		FBC5F69F1C9833C100B09ADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC5F69D1C9833C100B09ADB /* Main.storyboard */; };
 		FBC5F6A11C9833C100B09ADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC5F6A01C9833C100B09ADB /* Assets.xcassets */; };
 		FBC5F6A41C9833C100B09ADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC5F6A21C9833C100B09ADB /* LaunchScreen.storyboard */; };
 		FBC5F6AF1C9833C100B09ADB /* PracticeNavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC5F6AE1C9833C100B09ADB /* PracticeNavTests.swift */; };
 		FBC5F6BA1C9833C100B09ADB /* PracticeNavUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC5F6B91C9833C100B09ADB /* PracticeNavUITests.swift */; };
-		FBC5F6C81C983B1000B09ADB /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBC5F6C71C983B1000B09ADB /* back.jpg */; settings = {ASSET_TAGS = (); }; };
 		FBC5F6CA1C983E5700B09ADB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC5F6C91C983E5700B09ADB /* SearchViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		FBC5F6CC1C983F1500B09ADB /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC5F6CB1C983F1500B09ADB /* GroupViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		FBC5F6CE1C9840F600B09ADB /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC5F6CD1C9840F600B09ADB /* Group.swift */; settings = {ASSET_TAGS = (); }; };
@@ -39,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		FB3A44361C99E20B001F9431 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		FB3A443A1C99E858001F9431 /* blair.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blair.JPG; sourceTree = "<group>"; };
 		FBC5F6961C9833C100B09ADB /* PracticeNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC5F6991C9833C100B09ADB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBC5F69E1C9833C100B09ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,7 +52,6 @@
 		FBC5F6B51C9833C100B09ADB /* PracticeNavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeNavUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC5F6B91C9833C100B09ADB /* PracticeNavUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeNavUITests.swift; sourceTree = "<group>"; };
 		FBC5F6BB1C9833C100B09ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FBC5F6C71C983B1000B09ADB /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
 		FBC5F6C91C983E5700B09ADB /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		FBC5F6CB1C983F1500B09ADB /* GroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
 		FBC5F6CD1C9840F600B09ADB /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 		FBC5F6981C9833C100B09ADB /* PracticeNav */ = {
 			isa = PBXGroup;
 			children = (
-				FBC5F6C71C983B1000B09ADB /* back.jpg */,
+				FB3A443A1C99E858001F9431 /* blair.JPG */,
 				FBC5F6991C9833C100B09ADB /* AppDelegate.swift */,
 				FBC5F69D1C9833C100B09ADB /* Main.storyboard */,
 				FBC5F6A01C9833C100B09ADB /* Assets.xcassets */,
@@ -240,8 +240,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBC5F6C81C983B1000B09ADB /* back.jpg in Resources */,
 				FBC5F6A41C9833C100B09ADB /* LaunchScreen.storyboard in Resources */,
+				FB3A443B1C99E858001F9431 /* blair.JPG in Resources */,
 				FBC5F6A11C9833C100B09ADB /* Assets.xcassets in Resources */,
 				FBC5F69F1C9833C100B09ADB /* Main.storyboard in Resources */,
 			);

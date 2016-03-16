@@ -16,9 +16,9 @@ class SearchViewController: UITableViewController{
         super.viewDidLoad()
         
         groups=[
-        Group(name: "Yoga Club",description: "We do yoga"),
-        Group(name: "Smash Club",description: "We play smash"),
-        Group(name: "Track",description: "We do track")
+            Group(id: 1, name: "Yoga Club",description: "We do yoga"),
+            Group(id: 2, name: "Smash Club",description: "We play smash"),
+            Group(id: 3, name: "Track",description: "We do track")
         ]
         if let splitViewController = splitViewController {
             let controllers = splitViewController.viewControllers
