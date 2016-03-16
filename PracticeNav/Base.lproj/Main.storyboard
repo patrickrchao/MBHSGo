@@ -45,7 +45,7 @@
         <!--GroupViewController-->
         <scene sceneID="Ro7-OQ-XWg">
             <objects>
-                <viewController title="GroupViewController" id="clm-fI-F6T" sceneMemberID="viewController">
+                <viewController title="GroupViewController" id="clm-fI-F6T" customClass="GroupViewController" customModule="PracticeNav" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ay5-qj-DRW"/>
                         <viewControllerLayoutGuide type="bottom" id="suX-3l-DP5"/>
@@ -72,7 +72,7 @@
         <!--SearchViewController-->
         <scene sceneID="5jx-LO-SLv">
             <objects>
-                <tableViewController title="SearchViewController" clearsSelectionOnViewWillAppear="NO" id="gq9-Tf-XJX" sceneMemberID="viewController">
+                <tableViewController title="SearchViewController" clearsSelectionOnViewWillAppear="NO" id="gq9-Tf-XJX" customClass="SearchViewController" customModule="PracticeNav" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="XzN-7J-8Qc">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

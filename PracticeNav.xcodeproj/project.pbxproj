@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB3A44371C99E20B001F9431 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3A44361C99E20B001F9431 /* Event.swift */; settings = {ASSET_TAGS = (); }; };
 		FBC5F69A1C9833C100B09ADB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC5F6991C9833C100B09ADB /* AppDelegate.swift */; };
 		FBC5F69F1C9833C100B09ADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC5F69D1C9833C100B09ADB /* Main.storyboard */; };
 		FBC5F6A11C9833C100B09ADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC5F6A01C9833C100B09ADB /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB3A44361C99E20B001F9431 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		FBC5F6961C9833C100B09ADB /* PracticeNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC5F6991C9833C100B09ADB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBC5F69E1C9833C100B09ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				FBC5F6C91C983E5700B09ADB /* SearchViewController.swift */,
 				FBC5F6CB1C983F1500B09ADB /* GroupViewController.swift */,
 				FBC5F6CD1C9840F600B09ADB /* Group.swift */,
+				FB3A44361C99E20B001F9431 /* Event.swift */,
 			);
 			path = PracticeNav;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				FBC5F6CA1C983E5700B09ADB /* SearchViewController.swift in Sources */,
 				FBC5F69A1C9833C100B09ADB /* AppDelegate.swift in Sources */,
 				FBC5F6CE1C9840F600B09ADB /* Group.swift in Sources */,
+				FB3A44371C99E20B001F9431 /* Event.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +499,7 @@
 				FBC5F6C01C9833C100B09ADB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBC5F6C11C9833C100B09ADB /* Build configuration list for PBXNativeTarget "PracticeNavTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +508,7 @@
 				FBC5F6C31C9833C100B09ADB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBC5F6C41C9833C100B09ADB /* Build configuration list for PBXNativeTarget "PracticeNavUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +517,7 @@
 				FBC5F6C61C9833C100B09ADB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
