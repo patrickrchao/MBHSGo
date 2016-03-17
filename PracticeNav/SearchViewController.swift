@@ -26,7 +26,7 @@ class SearchViewController: UITableViewController{
         }
     }
     override func viewWillAppear(animated: Bool) {
-        //clearsSelectionOnViewWillAppear = splitViewController!.collapsed
+        clearsSelectionOnViewWillAppear = splitViewController!.collapsed
         super.viewWillAppear(animated)
     }
     
@@ -39,6 +39,7 @@ class SearchViewController: UITableViewController{
         return 1
     }
     
+    //return the desired number of rows
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return groups.count
     }
@@ -51,6 +52,18 @@ class SearchViewController: UITableViewController{
         cell.detailTextLabel!.text=g.description
         return cell
         
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "showDetail"{
+            if let indexPath=tableView.indexPathForSelectedRow{
+                let g=groups[indexPath.row]
+                let controller=(segue.destinationViewController as! UINavigationController).topViewController as! GroupViewController
+                controller.detailGroup=g
+                controller.navigationItem.leftBarButtonItem=splitViewController?.displayModeButtonItem()
+                controller.navigationItem.leftItemsSupplementBackButton=true
+            }
+        }
     }
     
 }
